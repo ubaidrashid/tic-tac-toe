@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #649b9b;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    background-color: black;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:0  0 1rem rgba(0,0,0,0.3) ;
+    font-size: 13vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+
+}
+.reset-button{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#new_game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    width: 10%;
+    
+}
+.message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-block: 25px;
+}
+h2{
+
+    width: 10%;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+
+}
+#for_winner{
+    color: greenyellow;
+}
+.none{
+    display: none;
+}
+@media (min-width:279px) and (max-width:1026px){
+    h2{
+        width: 40%;
+    }
+    #new_game{
+width: 40%;
+    }
+}
